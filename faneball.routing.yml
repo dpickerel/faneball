@@ -1,0 +1,39 @@
+faneball.faneball:
+  path: '/content/faneball'
+  defaults:
+    _content: '\Drupal\faneball\Controller\FaneballController::faneball'
+    _title: 'Faneball'
+  requirements:
+    _permission: 'access content'
+    
+faneball.powerball_form:
+  path: '/content/powerball'
+  defaults:
+    _title: 'Donation Forms'
+    _form: '\Drupal\faneball\Form\PowerballForm'
+  requirements:
+    _permission: 'access content'
+
+faneball.megamillions_form:
+  path: '/content/megamillions'
+  defaults:
+    _title: 'Physician Payment Form'
+    _form: '\Drupal\faneball\Form\MegamillionsForm'
+  requirements:
+    _permission: 'access content'
+
+faneball.cash5_form:
+  path: '/content/hosp-forms'
+  defaults:
+    _title: 'Payment Form'
+    _form: '\Drupal\faneball\Form\DonorHospitalPaymentForm'
+  requirements:
+    _permission: 'access content'
+
+faneball.payments_config_form:
+  path: '/admin/config/settings'
+  defaults:
+    _title: 'Payment Forms Config Settings'
+    _form: '\Drupal\faneball\Form\DonorSettingsForm'
+  requirements:
+    _permission: 'access content'

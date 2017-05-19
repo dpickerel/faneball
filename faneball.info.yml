@@ -1,0 +1,6 @@
+name: Lottery Monitoring module
+description: 'Module to let users enter lottery numbers and be notified if they have a winning match'
+package: Fane Library
+
+type: module
+core: 8.x

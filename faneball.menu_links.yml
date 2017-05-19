@@ -1,0 +1,5 @@
+faneball.faneball:
+  title: Faneball Link
+  description: 'Main user page'
+  parent: system.admin_structure
+  route_name: faneball.faneball
